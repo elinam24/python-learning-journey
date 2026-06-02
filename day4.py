@@ -8,7 +8,7 @@ except NameError:
     print('y is not defined')
 
 
-#ValueError - Python can only convert strings that lool like number. e.g. "9"
+#ValueError - Python can only convert strings that look like numbers. e.g. "9" not "nine"
 try:
     x = int("nine")
 except ValueError:
